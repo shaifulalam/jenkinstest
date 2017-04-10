@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt-get install -y python3
+RUN apt-get update && apt-get install -y python3
 
 ADD test /test
 
