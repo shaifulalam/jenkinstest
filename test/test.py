@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 count = 100
-while (count < 999999):
+while (count < 99999999):
    print 'The count is:', count
    count = count + 1
 
